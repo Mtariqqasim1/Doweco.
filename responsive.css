@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    .header.tablet{
+        display: flex;
+    }
+    .header.desktop{
+        display: none;
+    }
+    .section-inner{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .collections-inner{
+        grid-template-columns: 1fr;
+    }
+    .products-inner{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .iwc-inner{
+        grid-template-columns: 1fr;
+    }
+    .brands{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-inner{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 425px){
+    .catagories{
+        margin: 20px 0;
+    }
+    .section-inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .products-inner{
+        grid-template-columns: 1fr;
+    }
+    .brands{
+        grid-template-columns: 1fr;
+    }
+    .footer-inner{
+        grid-template-columns: 1fr;
+    }
+}
